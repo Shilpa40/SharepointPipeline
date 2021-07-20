@@ -11,7 +11,7 @@ export default class SharePointPipeline extends React.Component<ISharePointPipel
           <div className={ styles.row }>
             <div className={ styles.column }>
               <span className={ styles.title }>Welcome to my First SPFx Project using Azure Devops and Github Project!</span>
-              <p className={ styles.subTitle }>Customize SharePoint experiences using Web Parts.</p>
+              <p className={ styles.subTitle }>Continuous Integration and Continuous Deployment Pipeline</p>
               <p className={ styles.description }>{escape(this.props.description)}</p>
               <a href="https://aka.ms/spfx" className={ styles.button }>
                 <span className={ styles.label }>Learn more</span>
